@@ -3,8 +3,8 @@
 This repository includes a source codes of HATS, A Hierarchical Graph Attention Network for Stock Movement Prediction. As we conducted experiments on two different tasks, node classification and graph classification, we provide two different version of codes for each tasks. Please refer to our paper [HATS: A Hierarchical Graph Attention Network for Stock Movement Prediction](https://arxiv.org/abs/1908.07999) for further details.
 
 ## Requirements
-Graph - Tensorflow 1.10.0
-Node - Tensorflow 1.11.0
+Numpy 1.15.1
+Tensorflow 1.11.0
 
 ## Dataset
 Price-realted data and corporate relation data is used for HATS. We gathered both data for S&P 500 listed companies from 2013/02/08 to
