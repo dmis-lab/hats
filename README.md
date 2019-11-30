@@ -8,7 +8,7 @@ Tensorflow 1.11.0
 
 ## Dataset
 Price-realted data and corporate relation data is used for HATS. We gathered both data for S&P 500 listed companies from 2013/02/08 to
-2019/06/17 (1174 trading days in total). Price data are gathered from [Yahoo Finance](https://finance.yahoo.com/) and corporate relation data are collected based on the information on [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page). Both datasets can be downloaded [here]()
+2019/06/17 (1174 trading days in total). Price data are gathered from [Yahoo Finance](https://finance.yahoo.com/) and corporate relation data are collected based on the information on [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page). Both datasets can be downloaded with the command below.
 
 ## Usage
 ### Download Data
