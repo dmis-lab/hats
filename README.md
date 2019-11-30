@@ -16,6 +16,11 @@ Price-realted data and corporate relation data is used for HATS. We gathered bot
 bash download.sh
 ```
 ### Excute model with makefile
+You need to pass some arguments 
+test_phase : phase that you want to test
+save_dir : name of saving directories
+
 ```
-make Makefile
+e.g.
+make test_phase=1 save_dir=save
 ```
