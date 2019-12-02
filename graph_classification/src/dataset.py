@@ -121,7 +121,6 @@ class StockDataset():
             self.dev_set.append(df.iloc[:test_target_start_idx].values[-self.dev_size-self.lookback:])
             self.test_set.append(df.iloc[test_input_start_idx:test_target_start_idx+self.test_size].values)
 
-        pdb.set_trace()
         all_tr_rt = list()
         for tr_set in self.train_label:
             all_tr_rt += tr_set.tolist()
